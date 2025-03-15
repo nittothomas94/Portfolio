@@ -1,0 +1,42 @@
+.vertical-line-left {
+  width: 1px;
+  height: 40%;
+  background-color: rgba(128, 128, 128, 0.436);
+  position: fixed;
+  left: 40px;
+  top: 20px;
+  z-index: 200;
+  font-family: 'Poppins';
+}
+.vertical-line-left a {
+  text-decoration: none;
+  writing-mode: vertical-lr;
+  color: rgb(21, 203, 21);
+  font-size: 14px;
+  position: fixed;
+  left: 33px;
+  top: 360px;
+}
+
+.vertical-line-left a:hover {
+  cursor: pointer;
+  color: #4ade80;
+}
+/* @media only screen and (max-width: 1024px) {
+  #lineL {
+    display: none;
+  }
+} */
+
+@media (max-width: 1024px) {
+  .vertical-line-left {
+    display: none;
+  }
+}
+
+/* Phones (450px and below) */
+@media (max-width: 450px) {
+  .vertical-line-left {
+    display: none;
+  }
+}

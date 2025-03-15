@@ -1,0 +1,15 @@
+.heading {
+  display: flex;
+  gap: 2px;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.letter {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.letter:hover {
+  transform: scale(1.8);
+}

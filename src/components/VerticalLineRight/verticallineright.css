@@ -1,0 +1,35 @@
+.vertical-line-right {
+  width: 1px;
+  height: 15%;
+  background-color: rgba(128, 128, 128, 0.436);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 200;
+  font-family: 'Poppins';
+}
+
+.vertical-line-right .lineR-icons {
+  position: absolute;
+  top: -120px;
+  left: -8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.vertical-line-right .lineR-icons a i {
+  color: rgb(21, 203, 21);
+  cursor: pointer;
+}
+
+.vertical-line-right .lineR-icons a i:hover {
+  color: #4ade80;
+}
+
+@media (max-width: 1024px) {
+  .vertical-line-right {
+    display: none;
+  }
+}
