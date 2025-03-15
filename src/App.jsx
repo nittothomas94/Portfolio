@@ -1,4 +1,4 @@
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/Navbar/navbar';
 import VerticalLineLeft from './components/VerticalLineLeft/verticallineleft';
 import VerticalLineRight from './components/VerticalLineRight/verticallineright';
 import { Typed } from 'react-typed';
