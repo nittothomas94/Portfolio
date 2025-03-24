@@ -52,12 +52,10 @@ const App = () => {
               <i class="fa-brands fa-github"></i>&nbsp;&nbsp;GitHub
             </a>
 
-            <a href="https://www.linkedin.com/in/nittothomas/">
-              <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;LinkedIn
+            <a href="mailto:nittothomas94@gmail.com?subject=Hello Nitto&body=Hello Nitto">
+              <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp;Email
             </a>
-            <a href="#">
-              <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; Email
-            </a>
+
             <a
               href="/pdf/Nitto_Thomas-Full_Stack_Developer.pdf"
               download="Nitto_Thomas-Full_Stack_Developer.pdf"
