@@ -35,7 +35,7 @@ const App = () => {
               }}
             />
           </h1>
-          <h1 className="heading heading-name">Nitto Thomas</h1>
+          <h1 className="heading heading-name">Nitto Thomass</h1>
           <p className="home-caption">
             <span>Fullstack Developer based in India </span>
             Crafting User Centric <span>Experiences</span>, <br /> Crafting
