@@ -23,6 +23,7 @@ const App = () => {
       <VerticalLineLeft />
       <VerticalLineRight />
       <div className="container">
+        {/* Home-Section */}
         <div className="home-section" id="home">
           <h1 className="heading">
             <Typewriter
@@ -35,7 +36,7 @@ const App = () => {
               }}
             />
           </h1>
-          <h1 className="heading heading-name">Nitto Thomass</h1>
+          <h1 className="heading heading-name">Nitto Thomas</h1>
           <p className="home-caption">
             <span>Fullstack Developer based in India </span>
             Crafting User Centric <span>Experiences</span>, <br /> Crafting
@@ -50,6 +51,13 @@ const App = () => {
               className="connect-me-button"
             >
               <i class="fa-brands fa-github"></i>&nbsp;&nbsp;GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/nittothomas/"
+              className="connect-me-button"
+            >
+              <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;LinkedIn
             </a>
 
             <a href="mailto:nittothomas94@gmail.com?subject=Hello Nitto&body=Hello Nitto">
@@ -123,10 +131,10 @@ const App = () => {
             <h4>Contact Me</h4>
             <h1 className="heading">Get In Touch</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur numquam quisquam consequuntur sunt, voluptates quae
-              nihil adipisci labore perferendis, fugit magnam quas maiores porro
-              at omnis reiciendis suscipit aperiam sint.
+              Have a project in mind or just want to say hello? Feel free to
+              reach out to me! I'm always open to discussing new opportunities,
+              collaborations, or any questions you may have. Let's connect and
+              create something amazing together.
             </p>
             <div className="call-email-map-whatsapp">
               {/* Call */}
