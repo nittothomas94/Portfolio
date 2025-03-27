@@ -1,6 +1,25 @@
 const projects = [
   {
-    id: 1,
+    id: 100,
+    title: 'Wood Palace',
+    image: '/images/wood-palace.png',
+    desc: 'Building',
+    site: '',
+    code: '',
+    youtube: '',
+  },
+  {
+    id: 101,
+    title: 'mini ecom',
+    image: '/images/e-com.png',
+    desc: 'Developed a mini e-commerce website using the MERN stack with a dummy payment gateway, enabling seamless cart management and order processing.',
+    site: 'https://mini-ecom-kappa.vercel.app/',
+    code: 'https://github.com/nittothomas94/mini-ecom',
+    youtube: 'https://youtu.be/o4ppw8sAlrY',
+  },
+
+  {
+    id: 102,
     title: 'Turf Booking',
     image: '/images/turf-booking.png',
     desc: 'A football turf booking platform allowing users to book available time slots seamlessly',
@@ -9,7 +28,7 @@ const projects = [
     youtube: '',
   },
   {
-    id: 2,
+    id: 103,
     title: 'User Management',
     image: '/images/user-management.png',
     desc: 'A CRUD application enabling user creation, updating, deletion, and retrieval',
@@ -18,7 +37,7 @@ const projects = [
     youtube: 'https://youtu.be/AFscACoutoc',
   },
   {
-    id: 3,
+    id: 104,
     title: 'Todo-MERN',
     image: '/images/todo-mern.png',
     desc: 'A simple and responsive Todo Application with functionalities to add, update, delete, and view tasks. Built using React, Express, Node.js, and MongoDB',
@@ -27,7 +46,7 @@ const projects = [
     youtube: 'https://youtu.be/DopuSxisTXk',
   },
   {
-    id: 4,
+    id: 105,
     title: 'Food Court',
     image: '/images/food-recipe.png',
     desc: 'A React-based recipe browsing app displaying food items, ingredients, and cooking instructions. Integrated with TheMealDB API for fetching and displaying various dishes',
@@ -36,7 +55,7 @@ const projects = [
     youtube: 'https://youtu.be/eCmSdajbyOs',
   },
   {
-    id: 5,
+    id: 106,
     title: 'Task Manager',
     image: '/images/task-manager.png',
     desc: 'A React-based task, Can create tasks, move them between "Ongoing" and "Completed" columns seamlessly',
@@ -45,7 +64,7 @@ const projects = [
     youtube: '',
   },
   {
-    id: 6,
+    id: 107,
     title: 'Tic Tac Toi Game',
     image: '/images/tic-tac-toi.png',
     desc: 'A simple and interactive Tic-Tac-Toe game built with React, featuring dynamic gameplay, win detection, and reset functionality',
@@ -54,7 +73,7 @@ const projects = [
     youtube: '',
   },
   {
-    id: 7,
+    id: 108,
     title: 'e-kart',
     image: '/images/mykart-apicall.png',
     desc: 'A React-based e-commerce application that fetches and displays products from the FakeStore API, with features like product listing, details view, and dynamic rendering.',
@@ -63,7 +82,7 @@ const projects = [
     youtube: '',
   },
   {
-    id: 8,
+    id: 109,
     title: 'Todo - React',
     image: '/images/todo-react.png',
     desc: 'A simple React-based task manager allowing users to add, update, delete, and view tasks with a clean and responsive UI.',
@@ -72,7 +91,7 @@ const projects = [
     youtube: 'https://youtu.be/ydhlnV6BWi0',
   },
   {
-    id: 8,
+    id: 110,
     title: 'NetFlix Clone HTML',
     image: '/images/netflix-clone-html.png',
     desc: 'A static Netflix homepage clone built with HTML and CSS, featuring responsive design and smooth animations for a realistic user interface.',
@@ -81,7 +100,7 @@ const projects = [
     youtube: 'https://youtu.be/7jvtVAyIJkE',
   },
   {
-    id: 9,
+    id: 111,
     title: 'React Clone HTML',
     image: '/images/react-clone-html.png',
     desc: 'A static clone of the React homepage built using HTML and CSS, showcasing responsive design and smooth animations for an authentic UI  feel',
@@ -90,7 +109,7 @@ const projects = [
     youtube: 'https://youtu.be/EOnrk6wWhKo',
   },
   {
-    id: 10,
+    id: 112,
     title: 'Audi Website Clone HTML',
     image: '/images/audi-clone-html.png',
     desc: 'A static clone of the Audi site homepage built using HTML and CSS, showcasing responsive design and smooth animations for an authentic UI ',
