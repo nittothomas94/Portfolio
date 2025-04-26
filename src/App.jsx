@@ -13,7 +13,7 @@ import './App.css';
 const App = () => {
   const openResumeInDrive = () => {
     window.open(
-      'https://drive.google.com/file/d/1AdWTLYBcbJXrUP-DPdYbmwgZvMGi24DW/view?usp=sharing'
+      'https://drive.google.com/file/d/1Sdcy3zvSuQEfvj4Alxk9hV6QLOI0Xvo3/view?usp=drive_link'
     );
   };
 
@@ -65,7 +65,7 @@ const App = () => {
             </a>
 
             <a
-              href="/pdf/Nitto_Thomas-Full_Stack_Developer.pdf"
+              href="/pdf/Nitto Thomas Mern Stack Developer.pdf"
               download="Nitto_Thomas-Full_Stack_Developer.pdf"
             >
               <i class="fa-solid fa-file"></i>&nbsp;&nbsp; Resume
@@ -73,7 +73,7 @@ const App = () => {
           </div>
         </div>
 
-        {/* About */}
+        {/* About  Overview */}
         <div className="about-section apearelement" id="about">
           {/* <h1 className="heading">Overview</h1> */}
           {/* Heading */}

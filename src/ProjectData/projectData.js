@@ -1,11 +1,70 @@
 const projects = [
+  // {
+  //   id: ,
+  //   title: '',
+  //   image: '',
+  //   desc: '',
+  //   site: '',
+  //   code: '',
+  //   youtube: '',
+  // },
+
+  {
+    id: 5,
+    title: 'E-Commerce',
+    image: '/images/e-commerce.png',
+    desc: 'Fully Responsive Site, Next.js, javaScript, Tailwind css Design From Figma',
+    site: 'https://e-commerce-lyart-tau-10.vercel.app/',
+    code: 'https://github.com/nittothomas94/E-Commerce',
+    youtube: '',
+  },
+
+  {
+    id: 4,
+    title: 'Fully Responsive Sustainable Mindz Clone',
+    image: '/images/Sustainable-Mindz.png',
+    desc: 'landing page built with Next.js, Tailwind CSS, and modern development practices,Figma layout',
+    site: 'https://sustainable-mindz.vercel.app/',
+    code: 'https://github.com/nittothomas94/Sustainable-Mindz',
+    youtube: '',
+  },
+
+  {
+    id: 3,
+    title: 'Nexcent',
+    image: '/images/Nexcent.png',
+    desc: 'Developed A Clone of Nexcent A Well Structured Code Project',
+    site: 'https://nexcent-2-three.vercel.app/',
+    code: 'https://github.com/nittothomas94/Nexcent-2',
+    youtube: '',
+  },
+  {
+    id: 2,
+    title: 'Todo2',
+    image: '/images/todo.png',
+    desc: 'Developed using MERN',
+    site: 'https://to-do-list-application-six-beige.vercel.app/',
+    code: 'https://github.com/nittothomas94/To-Do-List-Application',
+    youtube: '',
+  },
+
+  {
+    id: 1,
+    title: 'Task Management',
+    image: '/images/task-management.png',
+    desc: 'Responsive task management using MERN',
+    site: 'https://task-management-app-mern.vercel.app/',
+    code: 'https://github.com/nittothomas94/Task-Management-App---MERN',
+    youtube: '',
+  },
+
   {
     id: 100,
     title: 'Wood Palace',
     image: '/images/wood-palace.png',
-    desc: 'Building',
+    desc: 'Frontend usning React and backend using express, node js',
     site: '',
-    code: '',
+    code: 'https://github.com/nittothomas94/Wood-Palace',
     youtube: '',
   },
   {
