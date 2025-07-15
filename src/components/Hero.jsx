@@ -87,7 +87,7 @@ const Hero = () => {
 
         <motion.a
           variants={itemVariants}
-          href="mailto:nittothomas94@gmail.com?subject=Hello Nitto&body=Hello Nitto"
+          href="mailto:nitto.thomas.c@gmail.com?subject=Hello Nitto&body=Hello Nitto"
           className="w-full sm:w-[100px] md:w-[300px] xl:w-[150px] px-4 py-2  xl:px-[30px] xl:py-[9px] border border-white rounded-xl cursor-pointer no-underline hover:scale-110 transition duration-400 hover:border-green-400 text-white flex items-center gap-2"
         >
           <i className="fa-solid fa-envelope text-green-400" />
@@ -96,7 +96,7 @@ const Hero = () => {
 
         <motion.a
           variants={itemVariants}
-          href="/pdf/Nitto Thomas Mern Stack Developer.pdf"
+          href="/pdf/NittoThomas.pdf"
           download="Nitto_Thomas-Full_Stack_Developer.pdf"
           className="w-full sm:w-[100px] md:w-[300px] xl:w-[150px] px-4 py-2  xl:px-[30px] xl:py-[9px] border border-white rounded-xl cursor-pointer no-underline hover:scale-110 transition duration-400 hover:border-green-400 text-white flex items-center gap-2"
         >

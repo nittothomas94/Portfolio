@@ -4,7 +4,7 @@ import Heading from './Heading';
 const About = () => {
   const openResumeInDrive = () => {
     window.open(
-      'https://drive.google.com/file/d/your_resume_id_here/view?usp=sharing',
+      'https://drive.google.com/file/d/1Z8QqoT0lkjad9pr0BKNshsyS5s1LSJjY/view?usp=sharing',
       '_blank'
     );
   };
