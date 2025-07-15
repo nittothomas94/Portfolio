@@ -1,5 +1,3 @@
-import './Button.css';
-
 const Button = ({ text, className, onClick }) => {
   return (
     <div className="button">
